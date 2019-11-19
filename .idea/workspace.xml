@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4f0f2f-e57d-4119-acec-9ec2af8789b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysample.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program_no_10.py" beforeDir="false" afterPath="$PROJECT_DIR$/Program_no_10.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program_no_11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Program_no_11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program_no_12.py" beforeDir="false" afterPath="$PROJECT_DIR$/Program_no_12.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program_no_18.py" beforeDir="false" afterPath="$PROJECT_DIR$/Program_no_18.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program_no_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Program_no_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program_no_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Program_no_5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TusharBhavesh/Slip1.py" beforeDir="false" afterPath="$PROJECT_DIR$/TusharBhavesh/Slip1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +33,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TeBzEO1QmWKaQqvPQWKIbsPpb9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -74,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Program_no_12">
+  <component name="RunManager" selected="Python.Slip1">
     <configuration name="Program_no_12" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Trail PC" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,42 +96,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Program_no_13" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Slip1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Trail PC" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TusharBhavesh" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Program_no_13.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Program_no_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Trail PC" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Program_no_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TusharBhavesh/Slip1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,13 +181,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="mysample" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Trail PC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysample.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Slip1" />
+        <item itemvalue="Python.mysample" />
         <item itemvalue="Python.Program_no_12" />
         <item itemvalue="Python.all_true_while" />
         <item itemvalue="Python.Slip4" />
-        <item itemvalue="Python.Program_no_3" />
-        <item itemvalue="Python.Program_no_13" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +228,7 @@
       <workItem from="1574017307175" duration="20784000" />
       <workItem from="1574091459902" duration="5063000" />
       <workItem from="1574103324426" duration="11665000" />
-      <workItem from="1574137294776" duration="4000000" />
+      <workItem from="1574137294776" duration="6282000" />
     </task>
     <servers />
   </component>

@@ -1,15 +1,26 @@
-from functools import reduce
+m1 = int(input("enter 1s matrix rows"))
+n1 = int(input("enter 1s matrix cols"))
+a = [[0 for col in range(n1)] for row in range(m1)]
+for i in range(m1):
+    for j in range(n1):
+        a[i][j] = int(input())
 
-lst = [1, 5, 2, 3, 6, 74, 98, 44, 72, 53, 1, 55, 13, 45, 4, 95, 8, 4, 6, 6, 6, 87, 54, ]
-lst = list(map(lambda x: x + x, lst))
-print(lst)
+m2 = int(input("enter 2nd matrix rows"))
+n2 = int(input("enter 2nd matrix cols"))
+b = [[0 for col in range(n2)] for row in range(m2)]
+for i in range(m2):
+    for j in range(n2):
+        b[i][j] = int(input())
 
-# lst = [1, 5, 2, 3, 6, 74, 98, 44, 53, 1, 55, 13, 45, 4, 95, 8, 4, 6, 6, 6, 87, 54, ]
-lst = list(filter(lambda x: 0 if x % 2 == 0 else x, lst))
-print(lst)
+c = [[0 for col in range(n2)] for row in range(m1)]
+if n1 == m2:
+    for i in range(m1):
+        for j in range(n2):
+            c[i][j] = 0
+            for k in range(n1):
+                c[i][j] += a[i][k] * b[k][j]
+            print(c[i][j], end=' ')
+        print("")
+else:
+    print("Mulitphication Not posible")
 
-fact = lambda x: 1 if x == 0 else x * fact(x - 1)
-print(fact(1))
-
-n = int(input("enter No"))
-print(reduce(lambda x, y: x * y, range(1, n + 1)))
