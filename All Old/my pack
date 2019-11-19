@@ -1,0 +1,8 @@
+import allmodule as pg
+
+n = int(input("enter No"))
+print("Prime No is ", end=" ")
+print(pg.prime(n), end=' ')
+print("_" * 50)
+print("Armstrong No is ", end=" ")
+print(pg.armstrong(n), end=' ')
